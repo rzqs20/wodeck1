@@ -1,0 +1,34 @@
+# Web框架
+Flask==3.0.0
+flask-cors==4.0.0
+
+# 数据库
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9  # PostgreSQL驱动
+# 或使用: pymysql==1.1.0  # MySQL驱动
+
+# 认证
+PyJWT==2.8.0
+bcrypt==4.1.2
+
+# 缓存
+redis==5.0.1
+
+# 定时任务
+APScheduler==3.10.4
+
+# 数据处理
+pandas==2.1.4
+numpy==1.26.2
+
+# 股票数据源（选择其中一个或多个）
+akshare==1.11.78
+# tushare==1.3.8
+# yfinance==0.2.33
+
+# 日志
+python-json-logger==2.0.7
+
+# 其他工具
+python-dotenv==1.0.0
+requests==2.31.0
